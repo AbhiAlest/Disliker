@@ -12,3 +12,8 @@ Steps:
 
 
 This development is in Beta. Please be mindful of bugs. Currently working on turning this into an app/extension. 
+
+
+Updates Listed:
+
+04/14/2023 - 1.0 version debugging. Defined chrome extension. Working on formatting/installation, but dislike counter should be working. 
