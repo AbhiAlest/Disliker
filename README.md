@@ -17,3 +17,4 @@ This development is in Beta. Please be mindful of bugs. Currently working on tur
 Updates Listed:
 
 04/14/2023 - 1.0 version debugging. Defined chrome extension. Working on formatting/installation, but dislike counter should be working. 
+04/15/2023 - Defined Microsoft Edge extension.
