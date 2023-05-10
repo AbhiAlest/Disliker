@@ -33,6 +33,11 @@ python youtube_api.py
 Multilingual support: Currently, Disliker is being adapted to display the public dislike count for a variety of non-English languages including Spanish, Portuguese, Hindi, Korean, Japanese, French, and German. 
 Given this example local server: http://localhost:5000/dislike/VIDEO_ID/{language}, replace {language} with appropriate lingual abbreviations: 'es', 'pt', 'hi', 'ko', 'ja', 'fr', or 'de'
 
+---
+<div align="center">
+  <p> 
+    <img src="https://github.com/AbhiAlest/Disliker/blob/main/Logo/Disliker.png?raw=true" alt = "Disliker Logo" >
+</p>
 
 
 
