@@ -9,6 +9,7 @@ This development is in Beta. Please be mindful of bugs. Currently working on tur
 ---
 
 <h2>API Usage</h2>
+
 1. Input API key for Youtube Data API (via the Google Developers website).
 2. <video_id> is a video's URL ID. Use route 
 ```
