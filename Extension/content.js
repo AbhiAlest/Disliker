@@ -5,29 +5,15 @@ function getDislikeCount(videoId) {
 }
 
 function injectDislikeCount(dislikeCount) {
-  const container = document.querySelector('.ytd-video-primary-info-renderer');
-  if (container) {
-    const element = container.querySelector('#dislike-button');
-    if (element) {
-      const existingCount = element.querySelector('#dislikes');
-      if (existingCount) {
-        existingCount.textContent = dislikeCount.toLocaleString();
-      } else {
-        const count = document.createElement('span');
-        count.id = 'dislikes';
-        count.className = 'ytd-toggle-button-renderer-count-text';
-        count.textContent = dislikeCount.toLocaleString();
-        element.appendChild(count);
-      }
-    }
-  }
+  chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+    const tabId = tabs[0].id;
+    chrome.tabs.sendMessage(tabId, { type: 'dislikeCount', count: dislikeCount });
+  });
 }
 
-function init() {
-  const videoId = new URLSearchParams(location.search).get('v');
-  if (videoId) {
+chrome.webNavigation.onCompleted.addListener(function(details) {
+  if (details.frameId === 0 && details.url.startsWith('https://www.youtube.com/watch')) {
+    const videoId = new URLSearchParams(details.url.split('?')[1]).get('v');
     getDislikeCount(videoId).then(injectDislikeCount);
   }
-}
-
-init();
+});
