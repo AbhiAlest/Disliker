@@ -1,8 +1,8 @@
-<h1 align="center">Youtube-Dislike-Button-API</h1>
+<h1 align="center">Disliker</h1>
 <br />
 
 
-The YouTube Dislike Counter is an open-source project that provides a simple and convenient way to view the number of dislikes for any YouTube video. The project consists of two main components: an API that extracts the dislike count from the YouTube video page, and a browser extension that displays the dislike count to the user.
+Disliker is an open-source project that provides a simple and convenient way to view the number of dislikes for any YouTube video. The project consists of two main components: an API that extracts the dislike count from the YouTube video page, and a browser extension that displays the dislike count to the user.
 
 This development is in Beta. Please be mindful of bugs. Currently working on turning this into an app/extension. 
 
