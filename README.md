@@ -10,6 +10,7 @@ The project consists of two main components: an API that extracts the dislike co
 <p align="center">
 This development is in Beta. Please be mindful of bugs. Currently working on turning this into an app/extension. 
 </p>
+
 ---
 
 <h2>API Usage</h2>
