@@ -2,7 +2,7 @@
 <br />
 
 <p>
-**Disliker is an open-source project that provides a simple and convenient way to view the number of dislikes for any YouTube video. **
+<strong>Disliker is an open-source project that provides a simple and convenient way to view the number of dislikes for any YouTube video. </strong>
 </p>
 <p>
 The project consists of two main components: an API that extracts the dislike count from the YouTube video page, and a browser extension that displays the dislike count to the user.
