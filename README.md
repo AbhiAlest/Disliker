@@ -21,7 +21,9 @@ python youtube_api.py
 ```
 5. Make a GET request to the route's URL via the video ID. This will return a JSON object 
 ```json
-{"dislike_count": "{insert dislike counter} 
+{
+"dislike_count": "{insert dislike counter} 
+}
 ```
 
 
