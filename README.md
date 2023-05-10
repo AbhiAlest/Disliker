@@ -1,6 +1,6 @@
 # Youtube-Dislike-Button-API
 
-Youtube got rid of dislike button, which is kind of annoying. Run this API to see the public dislike counter.
+On November 10, 2021 YouTube removed the dislike button, greatly impacting the ability of individuals to determine the best possible content. Run this API/extension to see the public dislike counter.
 
 Steps:
 
@@ -12,9 +12,3 @@ Steps:
 
 
 This development is in Beta. Please be mindful of bugs. Currently working on turning this into an app/extension. 
-
-
-Updates Listed:
-
-04/14/2023 - 1.0 version debugging. Defined chrome extension. Working on formatting/installation, but dislike counter should be working. 
-04/15/2023 - Defined Microsoft Edge extension.
